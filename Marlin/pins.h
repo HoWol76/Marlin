@@ -651,7 +651,7 @@
     #endif
 
     #define SDPOWER            -1
-    #define SDSS               53
+    #define SDSS               49 // 53
     #define LED_PIN            13
   #endif
 
@@ -769,13 +769,13 @@
       #define LCD_PINS_D7 29
 
       #ifdef REPRAP_DISCOUNT_SMART_CONTROLLER
-        #define BEEPER 37
+        #define BEEPER 33 // 37
 
-        #define BTN_EN1 31
-        #define BTN_EN2 33
-        #define BTN_ENC 35
+        #define BTN_EN1 35 // 31
+        #define BTN_EN2 37 // 33
+        #define BTN_ENC 31 // 35
 
-        #define SDCARDDETECT 49
+        #define SDCARDDETECT -1 // 49
       #elif defined(LCD_I2C_PANELOLU2)
         #define BTN_EN1 47  //reverse if the encoder turns the wrong way.
         #define BTN_EN2 43
@@ -876,7 +876,7 @@
 #define E0_ENABLE_PIN       30
 
 #define SDPOWER            48
-#define SDSS               53
+#define SDSS               49 // 53
 #define LED_PIN            13
 #define PS_ON_PIN          -1
 #define KILL_PIN           -1
