@@ -876,7 +876,7 @@
 #define E0_ENABLE_PIN       30
 
 #define SDPOWER            48
-#define SDSS               49 // 53
+#define SDSS               53
 #define LED_PIN            13
 #define PS_ON_PIN          -1
 #define KILL_PIN           -1
